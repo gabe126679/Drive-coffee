@@ -110,6 +110,17 @@
         "swipe_on_mobile": false
       }
     },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
     "1650562941c5992e6b": {
       "type": "featured-collection",
       "settings": {
@@ -129,6 +140,7 @@
   "order": [
     "main",
     "1650562913bb32318b",
+    "product-recommendations",
     "1650562941c5992e6b"
   ]
 }

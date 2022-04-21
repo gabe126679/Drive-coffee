@@ -110,6 +110,7 @@
         "swipe_on_mobile": false
       }
     },
+
     "1650562941c5992e6b": {
       "type": "featured-collection",
       "settings": {
@@ -129,6 +130,7 @@
   "order": [
     "main",
     "1650562913bb32318b",
+    "product-recommendations",
     "1650562941c5992e6b"
   ]
 }
