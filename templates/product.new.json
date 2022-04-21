@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "blocks": {
+        "852f9ffc-88f8-4112-a61b-447bc25cd8e1": {
+          "type": "tax_notice_block",
+          "settings": {
+            "tax_notice_text": "no tax"
+          }
+        },
+        "2b5a451e-db02-48e2-8024-52c8cd0ab542": {
+          "type": "shipping_notice_block",
+          "settings": {
+            "shipping_notice_text": "ships in 99 days"
+          }
+        },
+        "3144def9-106f-4a57-9374-57e8088a2e38": {
+          "type": "product_price_block",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "852f9ffc-88f8-4112-a61b-447bc25cd8e1",
+        "2b5a451e-db02-48e2-8024-52c8cd0ab542",
+        "3144def9-106f-4a57-9374-57e8088a2e38"
+      ],
+      "settings": {
+        "show_reviews": false
+      }
+    },
+    "second": {
+      "type": "main-test-product",
+      "settings": {
+        "show_reviews": false
+      }
+    },
+    "1650560508484fabe5": {
+      "type": "image-with-text",
+      "blocks": {
+        "165056050845da749e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "test"
+          }
+        },
+        "165056050845da749e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>test text<\/p>"
+          }
+        },
+        "165056050845da749e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "test button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165056050845da749e-0",
+        "165056050845da749e-1",
+        "165056050845da749e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "second",
+    "1650560508484fabe5"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "settings": {
+        "tax": "tax included",
+        "shipping": "ships in 99 days",
+        "show_reviews": false
+      }
+    },
+    "second": {
+      "type": "main-test-product",
+      "settings": {
+        "tax": "tax not included",
+        "shipping": "ships in 1 day",
+        "show_reviews": false
+      }
+    },
+    "1650560508484fabe5": {
+      "type": "image-with-text",
+      "blocks": {
+        "165056050845da749e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "test"
+          }
+        },
+        "165056050845da749e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>test text<\/p>"
+          }
+        },
+        "165056050845da749e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "test button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165056050845da749e-0",
+        "165056050845da749e-1",
+        "165056050845da749e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "second",
+    "1650560508484fabe5"
+  ]
+}

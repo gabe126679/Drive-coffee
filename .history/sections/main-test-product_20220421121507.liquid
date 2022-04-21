@@ -1,0 +1,39 @@
+<br/>
+hello from the section file
+<br/>
+
+<h2>{{product.title}}</h2>
+<img src="{{product.featured_image | img_url: "300x"}}"/>
+
+<h4>⭐⭐⭐⭐⭐</h4>
+
+{%schema%}
+
+{
+    "name": "product page content",
+    "settings": [
+        {
+            "id":"tax",
+            "label":"tax-notice",
+            "type": "text"
+        },
+                {
+            "id":"shipping",
+            "label":"shipping-notice",
+            "type": "text"
+        }
+    ]
+}
+
+{
+    "name": "product page reviews",
+    "settings": [
+        {
+            "id":"shows_reviews",
+            "label":"show reviews?",
+            "type": "checkbox"
+        }
+    ]
+}
+
+{%endschema%}

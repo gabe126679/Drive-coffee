@@ -1,0 +1,15 @@
+{
+    "sections": {
+        "main": {
+            "type":"main-test-product",
+            "settings":{}
+        },
+        "second": {
+            "type":"main-test-product",
+            "settings":{}
+        }
+
+    },
+
+    "order":["main", "second"]
+}
