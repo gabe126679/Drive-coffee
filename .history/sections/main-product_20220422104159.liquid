@@ -106,43 +106,36 @@
                   <div class="summary__title">
                     {% render 'icon-accordion', icon: "leaf" %}
                     <h2 class="h4 accordion__title">
-                      Coffee Info
+                      Coffee
                     </h2>
                   </div>
                   {% render 'icon-caret' %}
                 </summary>
                 <div class="accordion__content rte">
-
-                  <table class="coffee_info">
+                  <table>
                   <tr>
-                    <td><b>Taste</b></td>
-                    <td>{{block.settings.taste}}</td>
+                    <td><b>Test</b></td>
+                    <td>Hazelnut, Sweet Fruits</td>
                   </tr>
 
                   <tr>
                     <td><b>Strength</b></td>
-                    <td>
-                      {% assign strength = block.settings.strength | plus:0 %}
-                      {% render "coffee-indicator", level:strength %}
-                    </td>
+                    <td></td>
                   </tr>
 
                   <tr>
                     <td><b>Acidity</b></td>
-                    <td>
-                      {% assign acidity = block.settings.acidity | plus:0 %}                
-                      {% render "coffee-indicator", level:acidity %}
-                    </td>
+                    <td></td>
                   </tr>
 
                   <tr>
                     <td><b>Type</b></td>
-                    <td>{{block.settings.type}}</td>
+                    <td>100% Arabica, Single Origin</td>
                   </tr>
 
                   <tr>
                     <td><b>Origin</b></td>
-                    <td>{{block.settings.origin}}</td>
+                    <td>Ethiopia</td>
                   </tr>
 
                   </table>
@@ -635,33 +628,9 @@
     },
     {
       "type": "coffee_info",
-      "name": "coffee info",
+      "name": "coffee_info",
       "settings":[
-        {
-          "id": "taste",
-          "label": "taste",
-          "type": "text"
-        },
-                {
-          "id": "strength",
-          "label": "strength",
-          "type": "text"
-        },
-        {
-          "id": "acidity",
-          "label": "acidity",
-          "type": "text"
-        },
-        {
-          "id": "type",
-          "label": "type",
-          "type": "text"
-        },
-        {
-          "id": "origin",
-          "label": "origin",
-          "type": "text"
-        }
+
       ]
     },
     {

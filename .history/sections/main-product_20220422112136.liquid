@@ -122,16 +122,20 @@
                   <tr>
                     <td><b>Strength</b></td>
                     <td>
-                      {% assign strength = block.settings.strength | plus:0 %}
-                      {% render "coffee-indicator", level:strength %}
+                      {% render "coffee-indicator "%}
                     </td>
                   </tr>
 
                   <tr>
                     <td><b>Acidity</b></td>
                     <td>
-                      {% assign acidity = block.settings.acidity | plus:0 %}                
-                      {% render "coffee-indicator", level:acidity %}
+                    <div class="coffee-indicator">
+                      {% render "icon-bean-filled"%}
+                      {% render "icon-bean-filled"%}
+                      {% render "icon-bean-empty"%}
+                      {% render "icon-bean-empty"%}
+                      {% render "icon-bean-empty"%}
+                    </div>
                     </td>
                   </tr>
 

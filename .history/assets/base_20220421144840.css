@@ -2140,19 +2140,3 @@ details-disclosure > details {
 .testimonial-name {
   text-align: center;
 }
-
-.coffee_info {
-  width: 100%;
-}
-
-.coffee-indicator {
-  display: flex;
-}
-
-.coffee-indicator svg {
-  max-height: 35px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  max-width: 35px;
-}
-

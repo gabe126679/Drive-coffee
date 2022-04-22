@@ -2122,37 +2122,12 @@ details-disclosure > details {
   margin: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.testimonial-card:focus {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
 .testimonial-icon svg {
   max-width: 10%;
-  max-height: 35px;
-}
-.testimonial-image {
-  text-align: center;
 }
 .testimonial-image img {
   border-radius: 50%;
-  max-width: 25%;
-  margin: 15px auto;
 }
-.testimonial-name {
+.testimonial-name img {
   text-align: center;
 }
-
-.coffee_info {
-  width: 100%;
-}
-
-.coffee-indicator {
-  display: flex;
-}
-
-.coffee-indicator svg {
-  max-height: 35px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  max-width: 35px;
-}
-

@@ -38,7 +38,7 @@
         "1650562191b8443af6-2"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -62,11 +62,52 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "165056650554f52340": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "f66f1e6a-77c2-42b6-b26e-059f1260e02e": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem pretium viverra suspendisse potenti nullam ac tortor vitae. Vitae aliquet nec ullamcorper sit amet risus nullam. Feugiat in fermentum posuere urna nec.<\/p>",
+            "name": ""
+          }
+        },
+        "4e8de5c8-aa85-447c-b261-5af11dcf9ff3": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem pretium viverra suspendisse potenti nullam ac tortor vitae. Vitae aliquet nec ullamcorper sit amet risus nullam. Feugiat in fermentum posuere urna nec.<\/p>",
+            "name": ""
+          }
+        },
+        "1964d83f-e14a-46fb-941d-866eddca46e8": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem pretium viverra suspendisse potenti nullam ac tortor vitae. Vitae aliquet nec ullamcorper sit amet risus nullam. Feugiat in fermentum posuere urna nec.<\/p>",
+            "name": ""
+          }
+        },
+        "a533523c-a9fb-4860-b2eb-0ba5fbe5c76d": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem pretium viverra suspendisse potenti nullam ac tortor vitae. Vitae aliquet nec ullamcorper sit amet risus nullam. Feugiat in fermentum posuere urna nec.<\/p>",
+            "name": ""
+          }
+        }
+      },
+      "block_order": [
+        "f66f1e6a-77c2-42b6-b26e-059f1260e02e",
+        "4e8de5c8-aa85-447c-b261-5af11dcf9ff3",
+        "1964d83f-e14a-46fb-941d-866eddca46e8",
+        "a533523c-a9fb-4860-b2eb-0ba5fbe5c76d"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "165056219196aad47d",
-    "16505622243b906cf2"
+    "16505622243b906cf2",
+    "165056650554f52340"
   ]
 }

@@ -115,34 +115,44 @@
 
                   <table class="coffee_info">
                   <tr>
-                    <td><b>Taste</b></td>
-                    <td>{{block.settings.taste}}</td>
+                    <td><b>Test</b></td>
+                    <td>Hazelnut, Sweet Fruits</td>
                   </tr>
 
                   <tr>
                     <td><b>Strength</b></td>
                     <td>
-                      {% assign strength = block.settings.strength | plus:0 %}
-                      {% render "coffee-indicator", level:strength %}
+                    <div class="coffee-indicator">
+                      {% render "icon-bean-filled"%}
+                      {% render "icon-bean-filled"%}
+                      {% render "icon-bean-filled"%}
+                      {% render "icon-bean-filled"%}
+                      {% render "icon-bean-empty"%}
+                    </div>
                     </td>
                   </tr>
 
                   <tr>
                     <td><b>Acidity</b></td>
                     <td>
-                      {% assign acidity = block.settings.acidity | plus:0 %}                
-                      {% render "coffee-indicator", level:acidity %}
+                    <div class="coffee-indicator">
+                      {% render "icon-bean-filled"%}
+                      {% render "icon-bean-filled"%}
+                      {% render "icon-bean-empty"%}
+                      {% render "icon-bean-empty"%}
+                      {% render "icon-bean-empty"%}
+                    </div>
                     </td>
                   </tr>
 
                   <tr>
                     <td><b>Type</b></td>
-                    <td>{{block.settings.type}}</td>
+                    <td>100% Arabica, Single Origin</td>
                   </tr>
 
                   <tr>
                     <td><b>Origin</b></td>
-                    <td>{{block.settings.origin}}</td>
+                    <td>Ethiopia</td>
                   </tr>
 
                   </table>
@@ -639,27 +649,27 @@
       "settings":[
         {
           "id": "taste",
-          "label": "taste",
+          "lable": "taste",
           "type": "text"
         },
                 {
           "id": "strength",
-          "label": "strength",
+          "lable": "strength",
           "type": "text"
         },
         {
           "id": "acidity",
-          "label": "acidity",
+          "lable": "acidity",
           "type": "text"
         },
         {
           "id": "type",
-          "label": "type",
+          "lable": "type",
           "type": "text"
         },
         {
           "id": "origin",
-          "label": "origin",
+          "lable": "origin",
           "type": "text"
         }
       ]
