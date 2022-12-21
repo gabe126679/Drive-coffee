@@ -1,4 +1,4 @@
-theme-check-disable UndefinedObject
+{% comment %}theme-check-disable UndefinedObject{% endcomment %}
 {{ 'section-footer.css' | asset_url | stylesheet_tag }}
 <link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-accordion.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -143,7 +143,7 @@ theme-check-disable UndefinedObject
           </div>
         {%- endif -%}
 
-        {%- if section.settings.show_social -%}
+        {% comment %} {%- if section.settings.show_social -%}
           <ul class="footer__list-social list-unstyled list-social" role="list">
             {%- if settings.social_twitter_link != blank -%}
               <li class="list-social__item">
@@ -153,14 +153,14 @@ theme-check-disable UndefinedObject
                 </a>
               </li>
             {%- endif -%}
-           {%- if settings.social_facebook_link != blank -%}
+            {%- if settings.social_facebook_link != blank -%}
               <li class="list-social__item">
-                 <a href="{{ settings.social_facebook_link }}" class="link link--text list-social__link" aria-describedby="a11y-external-message">
+                <a href="{{ settings.social_facebook_link }}" class="link link--text list-social__link" aria-describedby="a11y-external-message">
                   {%- render 'icon-facebook' -%}
                   <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
-                </a> 
+                </a>
               </li>
-            {%- endif -%} 
+            {%- endif -%}
             {%- if settings.social_pinterest_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_pinterest_link }}" class="link link--text list-social__link" aria-describedby="a11y-external-message">
@@ -219,7 +219,7 @@ theme-check-disable UndefinedObject
             {%- endif -%}
             <li class="list-social__item--placeholder">{{ 'sections.footer.social_placeholder' | t }}</li>
           </ul>
-        {%- endif -%}
+        {%- endif -%} {% endcomment %}
       </div>
     </div>
   {%- endif -%}

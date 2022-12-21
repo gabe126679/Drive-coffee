@@ -1,4 +1,4 @@
-theme-check-disable UndefinedObject
+{% comment %}theme-check-disable UndefinedObject{% endcomment %}
 {{ 'section-footer.css' | asset_url | stylesheet_tag }}
 <link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-accordion.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -153,14 +153,14 @@ theme-check-disable UndefinedObject
                 </a>
               </li>
             {%- endif -%}
-           {%- if settings.social_facebook_link != blank -%}
+            {% comment %} {%- if settings.social_facebook_link != blank -%}
               <li class="list-social__item">
-                 <a href="{{ settings.social_facebook_link }}" class="link link--text list-social__link" aria-describedby="a11y-external-message">
+                <a href="{{ settings.social_facebook_link }}" class="link link--text list-social__link" aria-describedby="a11y-external-message">
                   {%- render 'icon-facebook' -%}
                   <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
-                </a> 
+                </a>
               </li>
-            {%- endif -%} 
+            {%- endif -%} {% endcomment %}
             {%- if settings.social_pinterest_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_pinterest_link }}" class="link link--text list-social__link" aria-describedby="a11y-external-message">
