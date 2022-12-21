@@ -2,7 +2,9 @@
     {% for block in section.blocks %}
         <div class="testimonial-card"> 
             <div class="testimonial-icon">
+
                 {% render "icon-quotes"%}
+
             </div>
             <div class="testimonial-text">
                 {{block.settings.text}}

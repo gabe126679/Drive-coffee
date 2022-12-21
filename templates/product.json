@@ -148,10 +148,28 @@
     },
     "1650565790e3879e7d": {
       "type": "testimonial-slider",
-      "settings": {}
-    },
-    "16506370265d763370": {
-      "type": "metafields",
+      "blocks": {
+        "fa20a722-2c89-4b02-beea-b2067c715449": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "name": "Richard",
+            "image": "shopify:\/\/shop_images\/user_1.jpg"
+          }
+        },
+        "18f3dcaa-3a5c-4f57-8a9f-fdb8550fe2d7": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <\/p>",
+            "name": "Chanelle",
+            "image": "shopify:\/\/shop_images\/user_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "fa20a722-2c89-4b02-beea-b2067c715449",
+        "18f3dcaa-3a5c-4f57-8a9f-fdb8550fe2d7"
+      ],
       "settings": {}
     }
   },
@@ -159,7 +177,6 @@
     "main",
     "1650562913bb32318b",
     "1650562941c5992e6b",
-    "1650565790e3879e7d",
-    "16506370265d763370"
+    "1650565790e3879e7d"
   ]
 }
