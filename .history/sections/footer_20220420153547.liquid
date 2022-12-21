@@ -143,7 +143,7 @@
           </div>
         {%- endif -%}
 
-        {% comment %} {%- if section.settings.show_social -%}
+        {%- if section.settings.show_social -%}
           <ul class="footer__list-social list-unstyled list-social" role="list">
             {%- if settings.social_twitter_link != blank -%}
               <li class="list-social__item">
@@ -219,7 +219,7 @@
             {%- endif -%}
             <li class="list-social__item--placeholder">{{ 'sections.footer.social_placeholder' | t }}</li>
           </ul>
-        {%- endif -%} {% endcomment %}
+        {%- endif -%}
       </div>
     </div>
   {%- endif -%}
